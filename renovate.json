@@ -1,0 +1,45 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "postUpdateOptions": ["gomodTidy"],
+  "extends": ["config:recommended"],
+  "packageRules": [
+    {
+      "matchManagers": ["github-actions"],
+      "automerge": true
+    },
+    {
+      "matchManagers": ["npm"],
+      "matchUpdateTypes": ["minor", "patch"],
+      "matchCurrentVersion": "!/^0/",
+      "automerge": true
+    },
+    {
+      "matchManagers": ["npm"],
+      "matchUpdateTypes": ["patch"],
+      "automerge": true
+    }
+  ],
+  "customManagers": [
+    {
+      "customType": "regex",
+      "managerFilePatterns": ["/docusaurus.config.ts/"],
+      "matchStrings": [
+        "We just released (?<currentValue>v[0-9.]*) of our Open Source Kubernetes Package Manager"
+      ],
+      "datasourceTemplate": "github-releases",
+      "versioningTemplate": "docker",
+      "depNameTemplate": "glasskube/glasskube"
+    },
+    {
+      "customType": "regex",
+      "managerFilePatterns": [
+        "/src/partials/_install.mdx/",
+        "/src/partials/_upgrade.mdx/"
+      ],
+      "matchStrings": ["glasskube_(?<currentValue>v[0-9.]*)_"],
+      "datasourceTemplate": "github-releases",
+      "versioningTemplate": "docker",
+      "depNameTemplate": "glasskube/glasskube"
+    }
+  ]
+}

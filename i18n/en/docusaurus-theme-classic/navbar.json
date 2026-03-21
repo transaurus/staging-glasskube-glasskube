@@ -1,0 +1,22 @@
+{
+  "title": {
+    "message": "Glasskube",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Glasskube Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Distr": {
+    "message": "Distr",
+    "description": "Navbar item with label Distr"
+  },
+  "item.label.Expertise": {
+    "message": "Expertise",
+    "description": "Navbar item with label Expertise"
+  },
+  "item.label.Blog": {
+    "message": "Blog",
+    "description": "Navbar item with label Blog"
+  }
+}
