@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkglasskube_dev=self.webpackChunkglasskube_dev||[]).push([["5933"],{96744:function(s){s.exports=JSON.parse('{"blogTitle":"Blog","blogDescription":"Blog","totalPosts":23,"totalRecentPosts":3}')}}]);

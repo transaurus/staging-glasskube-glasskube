@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkglasskube_dev=self.webpackChunkglasskube_dev||[]).push([["1221"],{63042:function(e,s,u){u.d(s,{A:()=>k});var n=u(62615),c=u(79222);function k(e){let{children:s,...u}=e;return(0,n.jsx)(c.A,{...u,children:s})}}}]);

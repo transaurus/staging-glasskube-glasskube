@@ -1,0 +1,18 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.glossary.category.Glossary": {
+    "message": "Glossary",
+    "description": "The label for category 'Glossary' in sidebar 'glossary'"
+  },
+  "sidebar.glossary.category.Glossary.link.generated-index.title": {
+    "message": "Kubernetes Glossary",
+    "description": "The generated-index page title for category 'Glossary' in sidebar 'glossary'"
+  },
+  "sidebar.glossary.category.Glossary.link.generated-index.description": {
+    "message": "Learn about common Kubernetes and cloud-native terminology",
+    "description": "The generated-index page description for category 'Glossary' in sidebar 'glossary'"
+  }
+}

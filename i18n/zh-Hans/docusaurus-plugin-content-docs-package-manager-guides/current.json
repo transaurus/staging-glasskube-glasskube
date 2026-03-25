@@ -1,0 +1,30 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.guides.category.Package Installation Guides": {
+    "message": "Package Installation Guides",
+    "description": "The label for category 'Package Installation Guides' in sidebar 'guides'"
+  },
+  "sidebar.guides.category.Package Installation Guides.link.generated-index.title": {
+    "message": "Package Installation Guides",
+    "description": "The generated-index page title for category 'Package Installation Guides' in sidebar 'guides'"
+  },
+  "sidebar.guides.category.Package Installation Guides.link.generated-index.description": {
+    "message": "⚠️ Learn how to install your favorite Kubernetes add-ons using the Glasskube package manager ⚠️",
+    "description": "The generated-index page description for category 'Package Installation Guides' in sidebar 'guides'"
+  },
+  "sidebar.guides.category.Contributor Guides": {
+    "message": "Contributor Guides",
+    "description": "The label for category 'Contributor Guides' in sidebar 'guides'"
+  },
+  "sidebar.guides.category.Contributor Guides.link.generated-index.title": {
+    "message": "Contributor Guides",
+    "description": "The generated-index page title for category 'Contributor Guides' in sidebar 'guides'"
+  },
+  "sidebar.guides.category.Contributor Guides.link.generated-index.description": {
+    "message": "⚠️ Contributors are what make open source great, here is where we share some resources to support you. ⚠️",
+    "description": "The generated-index page description for category 'Contributor Guides' in sidebar 'guides'"
+  }
+}

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkglasskube_dev=self.webpackChunkglasskube_dev||[]).push([["8993"],{38927:function(e,s,u){u.r(s),u.d(s,{default:()=>d});var t=u(62615),n=u(52264);function d(){return(0,t.jsx)(n.rd,{to:"/docs/design/telemetry"})}}}]);

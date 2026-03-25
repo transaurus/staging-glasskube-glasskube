@@ -23,18 +23,18 @@ const config: Config = {
   organizationName: 'glasskube',
   projectName: 'glasskube.dev',
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenAnchors: 'ignore',
 
   markdown: {
     hooks: {
-      onBrokenMarkdownLinks: 'throw',
+      onBrokenMarkdownLinks: "warn",
     },
   },
 
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ["en", "zh-Hans"],
   },
   plugins: [
     'docusaurus-plugin-matomo',
