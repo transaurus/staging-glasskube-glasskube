@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkglasskube_dev=self.webpackChunkglasskube_dev||[]).push([["2245"],{46484:function(e,s,c){c.d(s,{createArchitectureServices:()=>u.S});var u=c(7906);c(73627)}}]);
